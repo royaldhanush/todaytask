@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+        <body>
+        <title> TABLE</title>
+        <head font colour="red"><center>Geeksforgeeks</center></head> <br>
+        <head font colour="green"><center>table with rowspan and colspan</center></head>
+        <table border="1">
+       
+        <tr>
+            <td colspan="2">name </td>
+            <td>class</td>
+            <td>school</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> mahima</td>
+            <td rowspan="2">gupta</td>
+            <td>11</td>
+            <td span="2">mvm sshool
+            </td>
+        </tr>
+        <tr>
+            <td> mahima</td>
+            <td>gupta</td>
+            <td>A</td>
+            <td>mvm sshool</td>
+            
+            
+        </tr>
+        </table>
+    </body>
+</html>
+!doctype html>
+<html>
+
+<body>
+    <title> TABLE</title>
+
+    
+      <center><font color="green">Geeksforgeeks</center></head>
+     <br>
+
+ <center> table with rowspan and colspan</center><br>
+    
+   <center> <table border="1">
+
+        <tr>
+            <td colspan="4">name </td>
+            <td colspan="2">class</td>
+            <td colspan="2">school</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2"> mahima</td>
+            <td colspan="2" rowspan="4">gupta</td>
+            <td colspan="2">11</td>
+            <td colspan="2" rowspan="2">mvm sshool
+            </td>
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2">A</td>
+            
+
+        </tr>
+      </center> </table>
+</body>
+
+</html>
